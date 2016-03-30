@@ -1,4 +1,4 @@
-# Ionic starter IoT app, for communication with thethings.io
+# Ionic starter IoT app, for communication with thethings.io (released as-is...)
 
 For information on howto start with Ionic, you should start reading here: http://ionicframework.com/getting-started/
 
