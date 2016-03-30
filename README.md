@@ -4,6 +4,8 @@ For information on howto start with Ionic, you should start reading here: http:/
 
 The developer documentation for thethings.io is located here: https://developers.thethings.io/index.html
 
+Make very sure you make the right resources available from your dashboard, otherwise nothing will work! (from thethings.io dashboard, thing-resources and app rescources)
+
 Both these sites are very important for reading and understanding howto build all included here. Unfortunately, due to work, i have little time to offer support, so read carefully :)
 
 Lastly, the software used for driving the arduino is located here: https://cylonjs.com (you can find information on how and what type of electronics you can use)
