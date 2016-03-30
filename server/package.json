@@ -1,0 +1,24 @@
+{
+  "name": "thethingsio_starter_server",
+  "version": "1.0.0",
+  "description": "Simple Node App for communication with an arduino via thethings.io",
+  "main": "server.js",
+  "dependencies": {
+    "cylon": "^1.2.0",
+    "cylon-api-http": "^0.4.0",
+    "cylon-firmata": "^0.23.0",
+    "cylon-gpio": "^0.27.0",
+    "cylon-i2c": "^0.24.0",
+    "fs": "0.0.2",
+    "has-value": "^0.3.0",
+    "mqtt": "^1.7.3",
+    "thethingsio-mqtt": "0.0.3",
+    "ws": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bart Peperkamp",
+  "license": "ISC"
+}

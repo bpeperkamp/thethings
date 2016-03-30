@@ -1,0 +1,31 @@
+<ion-view view-title="Login" hide-nav-bar="true">
+
+  <ion-content scroll="false">
+
+    <div class="card">
+      <div class="item item-divider">
+        Register a new account
+      </div>
+      <div class="item item-text-wrap">
+        This will register a new user. Make sure you setup all the right resources before registering a user. This can be done in your dashboard over at thethings.io! It should be a unique email address.
+      </div>
+    </div>
+
+    <form ng-submit="registerUser()">
+      <div class="list list-inset">
+        <label class="item item-input">
+          <span class="input-label">E-mail</span>
+          <input type="email" ng-model="user.email">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="user.password">
+        </label>
+        <button class="button button-block button-positive" type="submit">Register</button>
+        <button class="button button-block button-assertive" ui-sref="app.login">Annuleren</button>
+      </div>
+    </form>
+
+  </ion-content>
+
+</ion-view>

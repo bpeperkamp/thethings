@@ -1,0 +1,29 @@
+<ion-view view-title="Link your thing!" hide-nav-bar="true">
+
+  <ion-content scroll="false">
+
+    <div class="card">
+      <div class="item item-divider">
+        Link your device to your account
+      </div>
+      <div class="item item-text-wrap">
+        This will link your device to this user. It will probably be user friendly to use a QR code scanner for this. The thingtoken is quite a long string...
+      </div>
+    </div>
+
+    <form ng-submit="link()">
+      <div class="list list-inset">
+
+        <label class="item item-input">
+          <span class="input-label">Paste your ThingToken</span>
+          <input type="text" ng-model="linkthing.thingToken">
+        </label>
+        
+        <button class="button button-block button-positive" type="submit">Link your thing!</button>
+        
+      </div>
+    </form>
+
+  </ion-content>
+
+</ion-view>
