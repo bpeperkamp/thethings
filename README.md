@@ -17,4 +17,4 @@ I built the serverside app on Node and used CylonJS for driving the arduino. It'
 
 ## The Ionic App
 
-You can start the app with "ionic serve" from the app directory, it will then be served via a regular webserver (http://localhost:8100 by default). For building for a specific platform i suggest you read here: http://ionicframework.com/docs/cli/run.html
+You can start the app with "ionic serve" from the app directory, it will then be served via a regular webserver (http://localhost:8100 by default). Before doind that however, run "npm install" and "bower install" from the root directory. For building for a specific platform i suggest you read here: http://ionicframework.com/docs/cli/run.html
